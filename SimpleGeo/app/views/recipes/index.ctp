@@ -6,3 +6,5 @@
  * Window - Preferences - PHPeclipse - PHP - Code Templates
  */
 ?>
+
+Test
