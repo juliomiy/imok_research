@@ -9,10 +9,11 @@ class Place extends AppModel {
 
     function schema() {
         $this->_schema = array(
-            '_id' => array('type' => 'integer', 'primary' => true, 'length' => 40),
-            'name' => array('type' => 'string'),
-            'longitude' => array('type' => 'integer'),
-            'latitude' => array('type' => 'integer'),
+            "_id" => array("type" => "integer", "primary" => true, "length" => 40),
+            "user_id" => array("type" => "integer", "length" => 40),
+			"name" => array("type" => "string"),
+            "longitude" => array("type" => "integer"),
+            "latitude" => array("type" => "integer"),
         );
         return $this->_schema;
     }

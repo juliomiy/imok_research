@@ -17,5 +17,17 @@ class PlacesController extends AppController {
 
 	}
 
+	function add() {
+
+		if (!empty($this->data)) {
+
+		} else {
+
+			print_r($_GET["uid"]);
+
+		}
+
+	}
+
 }
 ?>
