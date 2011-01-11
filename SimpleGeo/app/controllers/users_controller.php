@@ -6,6 +6,7 @@
 
  class UsersController extends AppController {
  	var $name = "Users";
+ 	var $uses = array("User");
 
  	function index() {
  		$this->set("users", $this->User->find('all'));

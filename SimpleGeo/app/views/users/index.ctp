@@ -23,10 +23,10 @@
 		<td>
 
 			<?php echo
-				$html->link("Add Favorite Places",
+				$html->link("Locate Favorite Place",
 						array(
 						"controller" => "places",
-						"action" => "add",
+						"action" => "index",
 						"?" => array("uid" => $user["User"]["_id"]),
 						array(), "")
 			);
